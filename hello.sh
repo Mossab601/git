@@ -1,5 +1,6 @@
 #!/bin/bash
 
-# Default is "World"
+# This is an unwanted but committed change
 name=${1:-"World"}
+
 echo "Hello, $name"
