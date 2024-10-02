@@ -1,6 +1,8 @@
 #!/bin/bash
 
-echo "What's your name"
-read my_name
+# Default is World
+# Author: midbenke
+# Email: idmossab@gmail.com 
+name=${1:-"World"}
 
-echo "Hello, $my_name"
+echo "Hello, $name"
